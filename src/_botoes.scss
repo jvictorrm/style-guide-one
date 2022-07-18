@@ -1,0 +1,42 @@
+.btn {
+  @extend .primary-font;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 0;
+  color: $cor-branco;
+  cursor: pointer;
+
+  &--primario {
+    background-color: $cor-primaria;
+  }
+
+  &--secundario {
+    background-color: $cor-secundaria;
+  }
+
+  &--promocao {
+    background-color: $cor-promocao;
+  }
+
+  &--grande {
+    padding: 30px;
+    font-size: 18px;
+  }
+
+  &--pequeno {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+/*GUIDE
+Base|Botões
+<a class="btn btn--primario">btn btn--primario</a>
+<a class="btn btn--secundario">btn btn--secundario</a>
+<a class="btn btn--promocao">btn btn--promocao</a>
+<a class="btn btn--primario btn--grande">btn btn--primario btn--grande</a>
+<a class="btn btn--secundario btn--pequeno">btn btn--secundario btn--pequeno</a>
+*/

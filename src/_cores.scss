@@ -1,0 +1,80 @@
+$cor-sherpa-blue: #00434b;
+$cor-ronchi: #f0c14b;
+$cor-rose-sharon: #c45500;
+$cor-science-blue: #0066c0;
+
+$cor-alto: #dddddd;
+$cor-preto: #000000;
+$cor-branco: #ffffff;
+$cor-primaria: $cor-sherpa-blue;
+$cor-secundaria: $cor-ronchi;
+$cor-promocao: $cor-rose-sharon;
+$cor-link: $cor-science-blue;
+
+// CORES DE TEXTO
+.c-alto {
+  color: $cor-alto;
+}
+.c-preto {
+  color: $cor-preto;
+}
+.c-branco {
+  color: $cor-branco;
+}
+.c-primaria {
+  color: $cor-primaria;
+}
+.c-secundaria {
+  color: $cor-secundaria;
+}
+.c-promocao {
+  color: $cor-promocao;
+}
+.c-link {
+  color: $cor-link;
+}
+
+// CORES DE FUNDO
+.b-alto {
+  background-color: $cor-alto;
+}
+.b-preto {
+  background-color: $cor-preto;
+}
+.b-branco {
+  background-color: $cor-branco;
+}
+.b-primaria {
+  background-color: $cor-primaria;
+}
+.b-secundaria {
+  background-color: $cor-secundaria;
+}
+.b-promocao {
+  background-color: $cor-promocao;
+}
+.b-link {
+  background-color: $cor-link;
+}
+
+/*GUIDE
+Cores|Texto
+div class="holder holder--short c-alto">c-alto</div>
+div class="holder holder--short c-preto">c-preto</div>
+div class="holder holder--short b-preto c-branco">c-branco</div>
+div class="holder holder--short c-primaria">c-primaria</div>
+div class="holder holder--short c-secundaria">c-secundaria</div>
+div class="holder holder--short c-promocao">c-promocao</div>
+div class="holder holder--short c-link">c-link</div>
+*/
+
+/*GUIDE
+Cores|Fundo
+div class="holder holder--short b-alto">b-alto</div>
+div class="holder holder--short c-branco b-preto">b-preto</div>
+div class="holder holder--short b-branco">b-branco</div>
+div class="holder holder--short b-primaria">b-primaria</div>
+div class="holder holder--short b-secundaria">b-secundaria</div>
+div class="holder holder--short b-promocao">b-promocao</div>
+div class="holder holder--short b-link">b-link</div>
+*/

@@ -1,0 +1,36 @@
+@import 'reset';
+@import 'breakpoints';
+@import 'mixins';
+@import 'tipografia';
+@import 'cores';
+@import 'grid';
+@import 'botoes';
+@import 'links';
+@import 'sombras';
+@import 'borda';
+
+@import 'header';
+@import 'footer';
+@import 'produto-lista';
+@import 'produto-detalhe';
+
+.page {
+  padding: 42px 0;
+}
+
+.holder {
+  @extend .primary-font;
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+
+  &--short {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@import 'helpers';

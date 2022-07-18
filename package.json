@@ -1,0 +1,22 @@
+{
+  "name": "style-guide-one",
+  "version": "1.0.0",
+  "description": "Projeto Styled Guide Do Zero ao Todo",
+  "scripts": {
+    "sass": "sass src/styles.scss build/styles.css --style=compressed",
+    "postcss": "postcss --use autoprefixer -o build/styles.css build/styles.css",
+    "guidebook": "node guideBook.js",
+    "build": "yarn sass & yarn postcss",
+    "dev": "nodemon --watch src --ext scss --exec \"yarn build\""
+  },
+  "author": "jvictorrm",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "guide-book-generator": "^1.1.0",
+    "nodemon": "^2.0.19",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.53.0"
+  }
+}

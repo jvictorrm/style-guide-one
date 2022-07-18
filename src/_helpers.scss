@@ -1,0 +1,151 @@
+.op-5 {
+  opacity: 0.05;
+}
+
+.op-20 {
+  opacity: 0.2;
+}
+
+.op-40 {
+  opacity: 0.4;
+}
+
+.op-60 {
+  opacity: 0.6;
+}
+
+.op-80 {
+  opacity: 0.8;
+}
+
+/*GUIDE
+Helpers|Opacidade
+<div class="holder holder--short b-preto op-5"></div>
+<div class="holder holder--short">op-5</div>
+<br>
+<div class="holder holder--short b-preto op-20"></div>
+<div class="holder holder--short">op-20</div>
+<br>
+<div class="holder holder--short b-preto op-40"></div>
+<div class="holder holder--short">op-40</div>
+<br>
+<div class="holder holder--short b-preto op-60"></div>
+<div class="holder holder--short">op-60</div>
+<br>
+<div class="holder holder--short b-preto op-80"></div>
+<div class="holder holder--short">op-80</div>
+*/
+
+.no-margin {
+  margin: 0;
+}
+
+/*GUIDE
+Helpers|no-margin
+<div class="container">
+  <div class="row">
+    <div class="col col-8 no-margin">
+      <div class="holder sombra no-margin">col col-8</div>
+    </div>
+    <div class="col col-4">
+      <div class="holder sombra no-margin">col col-4</div>
+    </div>
+  </div>
+</div>
+*/
+
+.no-padding {
+  padding: 0;
+}
+
+/*GUIDE
+Helpers|no-padding
+<div class="container">
+  <div class="row">
+    <div class="col col-8 no-padding">
+      <div class="holder sombra no-padding">col col-8 no-padding</div>
+    </div>
+    <div class="col col-4">
+      <div class="holder sombra no-padding">col col-4</div>
+    </div>
+  </div>
+</div>
+*/
+
+.max-full-width {
+  max-width: 100%;
+}
+
+/*GUIDE
+Helpers|Largura máxima 100%
+<img src="https://pbs.twimg.com/media/EXZ0P3HXQAAVU3C.jpg" class="max-full-width"/>
+<div class="holder holder--short sombra">max-full-width</div>
+*/
+
+.full-width {
+  width: 100%;
+}
+
+/*GUIDE
+Helpers|Largura 100%
+<div class="holder full-width sombra">full-width</div>
+*/
+
+.half-width {
+  width: calc(100% / 2);
+}
+
+/*GUIDE
+Helpers|Largura 50%
+<div class="holder half-width sombra">half-width</div>
+*/
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*GUIDE
+Helpers|Textos maíusculos
+<div class="holder uppercase sombra">uppercase</div>
+*/
+
+.pre-line {
+  white-space: pre-line;
+}
+
+/*GUIDE
+Helpers|Forçar quebra de linha
+<p class="primary-font paragraph pre-line">
+  pre-line
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, asperiores ullam modi quis voluptates non nesciunt vero in, beatae est voluptatum quo laboriosam nemo dolorum velit inventore deleniti voluptatibus unde. New
+  pre-line
+</p>
+*/
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+/*GUIDE
+Helpers|Alinhamento texto
+<div class="holder sombra text-align-center">text-align-center</div>
+<div class="holder sombra text-align-left">text-align-left</div>
+<div class="holder sombra text-align-right">text-align-right</div>
+*/
+
+.inline-block {
+  display: inline-block;
+}
+
+/*GUIDE
+Helpers|Display
+<div class="holder sombra inline-block">inline-block</div>
+*/

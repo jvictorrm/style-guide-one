@@ -1,0 +1,64 @@
+.produto-detalhe {
+  &__image {
+    display: inline-block;
+    width: 450px;
+    margin-right: -5px;
+    padding: 0 5px;
+    vertical-align: top;
+
+    @include mobile {
+      width: 300px;
+      margin: 12px 0;
+    }
+
+    @include extra-pequeno {
+      width: 80%;
+    }
+  }
+
+  &__info {
+    display: inline-block;
+    width: calc(100% - 450px);
+    margin-right: -5px;
+    padding: 0 15px;
+    vertical-align: top;
+    box-sizing: border-box;
+
+    @include mobile {
+      width: calc(100% - 300px);
+    }
+
+    @include extra-pequeno {
+      width: 100%;
+
+      .btn {
+        width: 100%;
+      }
+    }
+
+    &__descricao {
+      padding: 24px 0;
+    }
+  }
+}
+
+/*GUIDE
+Componente|Produto Detalhe
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="produto-detalhe">
+        <img class="produto-detalhe__image max-full-width" src="'http://via.placeholder.com/450'"/>
+        <div class="produto-detalhe__info">
+          <h2 class="h2 primary-font c-primaria">Produto Detalhe</h2>
+          <p class="detalhe__info__descricao primary-font paragrafo c-primaria  pre-line">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum voluptates aperiam rem facere id deleniti neque velit et quibusdam alias doloremque ipsum dolor, iusto aspernatur unde voluptatem porro eius quasi!
+          </p>
+          <a class="sombra btn btn--primario text-align-center" href="#">Comprar</a>
+          <a class="sombra btn btn--secundario text-align-center" href="#">Adicionar a lista de desejos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+*/

@@ -1,0 +1,56 @@
+.footer {
+  &__top,
+  &__bottom {
+    background-color: darken($cor-primaria, 2%);
+    padding: 12px 0;
+  }
+
+  &__main {
+    padding: 32px 0;
+
+    &__lista {
+      &__item {
+        margin: 8px 0;
+      }
+    }
+  }
+
+  &__bottom {
+    &__image {
+      width: 50px;
+    }
+  }
+}
+
+/*GUIDE
+Componente|Footer
+<footer class="footer">
+  <div class="footer__top b-primaria">
+    <h2 class="h2 primary-font c-branco text-align-center">loja</h2>
+  </div>
+  <div class="footer__main b-primaria">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <nav>
+            <ul class="header__menu__lista no-margin no-padding text-align-center">
+              <li class="footer__main__lista__item">
+                <a class="link link--primario c-branco" href="#">Video Games</a>
+              </li>
+              <li class="footer__main__lista__item">
+                <a class="link link--primario c-branco" href="#">Livros</a>
+              </li>
+              <li class="footer__main__lista__item">
+                <a class="link link--primario c-branco" href="#">Café</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom text-align-center">
+    <img class="footer__bottom__image" src="/public/images/logo.png" />
+  </div>
+</footer>
+*/

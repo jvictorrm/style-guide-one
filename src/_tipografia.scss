@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.primary-font {
+  font-family: 'Mukta', sans-serif;
+}
+
+.h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/*GUIDE
+Tipografia|Header 1
+
+<h1 class="primary-font h1">Header 1</h1>
+*/
+
+.h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/*GUIDE
+Tipografia|Header 2
+
+<h1 class="primary-font h2">Header 2</h1>
+*/
+
+.h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*GUIDE
+Tipografia|Header 3
+
+<h1 class="primary-font h3">Header 3</h1>
+*/
+
+.paragrafo {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*GUIDE
+Tipografia|Paragrafo
+
+<p class="primary-font paragrafo">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aut quibusdam ducimus rerum debitis perferendis tempore voluptatem! Quasi, veritatis? Debitis sed voluptatibus natus consectetur architecto voluptates consequatur esse non nulla.
+</p>
+*/
